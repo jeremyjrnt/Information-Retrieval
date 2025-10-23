@@ -7,7 +7,7 @@ This repository contains coursework for an Information Retrieval course, consist
 ## Table of Contents
 
 1. [Project 1: Inverted Index and Boolean Retrieval](#project-1-inverted-index-and-boolean-retrieval)
-2. [Project 2](#project-2)
+2. [Project 2: Stemming, Stopwords, and Query Analysis](#project-2-stemming-stopwords-query-analysis)
 3. [Project 3: Query Expansion Models](#project-3-query-expansion-models)
 4. [IR Competition: Optimizing Retrieval Performance](#ir-competition-optimizing-retrieval-performance)
 
