@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<parameters>
+  <index>/data/IRCompetition/ROBUSTindex</index>
+  <trecFormat>true</trecFormat>
+  <count>1000</count>
+  <rule>method:okapi,k1:1.0,b:0.5</rule>
+  <query>
+    <number>301</number>
+    <text>#weight( INSERT_BODY #combine( international organized crime ) INSERT_BOOST #combine( title.international title.organized title.crime ) )</text>
+  </query>
+  <query>
+    <number>302</number>
+    <text>#weight( INSERT_BODY #combine( poliomyelitis post polio ) INSERT_BOOST #combine( title.poliomyelitis title.post title.polio ) )</text>
+  </query>
+  <query>
+    <number>303</number>
+    <text>#weight( INSERT_BODY #combine( hubble telescope achievements ) INSERT_BOOST #combine( title.hubble title.telescope title.achievements ) )</text>
+  </query>
+  <query>
+    <number>304</number>
+    <text>#weight( INSERT_BODY #combine( endangered species mammals ) INSERT_BOOST #combine( title.endangered title.species title.mammals ) )</text>
+  </query>
+  <query>
+    <number>305</number>
+    <text>#weight( INSERT_BODY #combine( dangerous vehicles ) INSERT_BOOST #combine( title.dangerous title.vehicles ) )</text>
+  </query>
+  <query>
+    <number>306</number>
+    <text>#weight( INSERT_BODY #combine( african civilian deaths ) INSERT_BOOST #combine( title.african title.civilian title.deaths ) )</text>
+  </query>
+  <query>
+    <number>307</number>
+    <text>#weight( INSERT_BODY #combine( new hydroelectric projects ) INSERT_BOOST #combine( title.new title.hydroelectric title.projects ) )</text>
+  </query>
+  <query>
+    <number>308</number>
+    <text>#weight( INSERT_BODY #combine( implant dentistry ) INSERT_BOOST #combine( title.implant title.dentistry ) )</text>
+  </query>
+  <query>
+    <number>309</number>
+    <text>#weight( INSERT_BODY #combine( rap crime ) INSERT_BOOST #combine( title.rap title.crime ) )</text>
+  </query>
+  <query>
+    <number>310</number>
+    <text>#weight( INSERT_BODY #combine( radio waves brain cancer ) INSERT_BOOST #combine( title.radio title.waves title.brain title.cancer ) )</text>
+  </query>
+  <query>
+    <number>311</number>
+    <text>#weight( INSERT_BODY #combine( industrial espionage ) INSERT_BOOST #combine( title.industrial title.espionage ) )</text>
+  </query>
+  <query>
+    <number>312</number>
+    <text>#weight( INSERT_BODY #combine( hydroponics ) INSERT_BOOST #combine( title.hydroponics ) )</text>
+  </query>
+  <query>
+    <number>313</number>
+    <text>#weight( INSERT_BODY #combine( magnetic levitation maglev ) INSERT_BOOST #combine( title.magnetic title.levitation title.maglev ) )</text>
+  </query>
+  <query>
+    <number>314</number>
+    <text>#weight( INSERT_BODY #combine( marine vegetation ) INSERT_BOOST #combine( title.marine title.vegetation ) )</text>
+  </query>
+  <query>
+    <number>315</number>
+    <text>#weight( INSERT_BODY #combine( unexplained highway accidents ) INSERT_BOOST #combine( title.unexplained title.highway title.accidents ) )</text>
+  </query>
+  <query>
+    <number>316</number>
+    <text>#weight( INSERT_BODY #combine( polygamy polyandry polygyny ) INSERT_BOOST #combine( title.polygamy title.polyandry title.polygyny ) )</text>
+  </query>
+  <query>
+    <number>317</number>
+    <text>#weight( INSERT_BODY #combine( unsolicited faxes ) INSERT_BOOST #combine( title.unsolicited title.faxes ) )</text>
+  </query>
+  <query>
+    <number>318</number>
+    <text>#weight( INSERT_BODY #combine( best retirement country ) INSERT_BOOST #combine( title.best title.retirement title.country ) )</text>
+  </query>
+  <query>
+    <number>319</number>
+    <text>#weight( INSERT_BODY #combine( new fuel sources ) INSERT_BOOST #combine( title.new title.fuel title.sources ) )</text>
+  </query>
+  <query>
+    <number>320</number>
+    <text>#weight( INSERT_BODY #combine( undersea fiber optic cable ) INSERT_BOOST #combine( title.undersea title.fiber title.optic title.cable ) )</text>
+  </query>
+  <query>
+    <number>321</number>
+    <text>#weight( INSERT_BODY #combine( women parliaments ) INSERT_BOOST #combine( title.women title.parliaments ) )</text>
+  </query>
+  <query>
+    <number>322</number>
+    <text>#weight( INSERT_BODY #combine( international art crime ) INSERT_BOOST #combine( title.international title.art title.crime ) )</text>
+  </query>
+  <query>
+    <number>323</number>
+    <text>#weight( INSERT_BODY #combine( literary journalistic plagiarism ) INSERT_BOOST #combine( title.literary title.journalistic title.plagiarism ) )</text>
+  </query>
+  <query>
+    <number>324</number>
+    <text>#weight( INSERT_BODY #combine( argentine british relations ) INSERT_BOOST #combine( title.argentine title.british title.relations ) )</text>
+  </query>
+  <query>
+    <number>325</number>
+    <text>#weight( INSERT_BODY #combine( cult lifestyles ) INSERT_BOOST #combine( title.cult title.lifestyles ) )</text>
+  </query>
+  <query>
+    <number>326</number>
+    <text>#weight( INSERT_BODY #combine( ferry sinkings ) INSERT_BOOST #combine( title.ferry title.sinkings ) )</text>
+  </query>
+  <query>
+    <number>327</number>
+    <text>#weight( INSERT_BODY #combine( modern slavery ) INSERT_BOOST #combine( title.modern title.slavery ) )</text>
+  </query>
+  <query>
+    <number>328</number>
+    <text>#weight( INSERT_BODY #combine( pope beatifications ) INSERT_BOOST #combine( title.pope title.beatifications ) )</text>
+  </query>
+  <query>
+    <number>329</number>
+    <text>#weight( INSERT_BODY #combine( mexican air pollution ) INSERT_BOOST #combine( title.mexican title.air title.pollution ) )</text>
+  </query>
+  <query>
+    <number>330</number>
+    <text>#weight( INSERT_BODY #combine( iran iraq cooperation ) INSERT_BOOST #combine( title.iran title.iraq title.cooperation ) )</text>
+  </query>
+  <query>
+    <number>331</number>
+    <text>#weight( INSERT_BODY #combine( world bank criticism ) INSERT_BOOST #combine( title.world title.bank title.criticism ) )</text>
+  </query>
+  <query>
+    <number>332</number>
+    <text>#weight( INSERT_BODY #combine( income tax evasion ) INSERT_BOOST #combine( title.income title.tax title.evasion ) )</text>
+  </query>
+  <query>
+    <number>333</number>
+    <text>#weight( INSERT_BODY #combine( antibiotics bacteria disease ) INSERT_BOOST #combine( title.antibiotics title.bacteria title.disease ) )</text>
+  </query>
+  <query>
+    <number>334</number>
+    <text>#weight( INSERT_BODY #combine( export controls cryptography ) INSERT_BOOST #combine( title.export title.controls title.cryptography ) )</text>
+  </query>
+  <query>
+    <number>335</number>
+    <text>#weight( INSERT_BODY #combine( adoptive biological parents ) INSERT_BOOST #combine( title.adoptive title.biological title.parents ) )</text>
+  </query>
+  <query>
+    <number>336</number>
+    <text>#weight( INSERT_BODY #combine( black bear attacks ) INSERT_BOOST #combine( title.black title.bear title.attacks ) )</text>
+  </query>
+  <query>
+    <number>337</number>
+    <text>#weight( INSERT_BODY #combine( viral hepatitis ) INSERT_BOOST #combine( title.viral title.hepatitis ) )</text>
+  </query>
+  <query>
+    <number>338</number>
+    <text>#weight( INSERT_BODY #combine( risk aspirin ) INSERT_BOOST #combine( title.risk title.aspirin ) )</text>
+  </query>
+  <query>
+    <number>339</number>
+    <text>#weight( INSERT_BODY #combine( alzheimers drug treatment ) INSERT_BOOST #combine( title.alzheimers title.drug title.treatment ) )</text>
+  </query>
+  <query>
+    <number>340</number>
+    <text>#weight( INSERT_BODY #combine( land mine ban ) INSERT_BOOST #combine( title.land title.mine title.ban ) )</text>
+  </query>
+  <query>
+    <number>341</number>
+    <text>#weight( INSERT_BODY #combine( airport security ) INSERT_BOOST #combine( title.airport title.security ) )</text>
+  </query>
+  <query>
+    <number>342</number>
+    <text>#weight( INSERT_BODY #combine( diplomatic expulsion ) INSERT_BOOST #combine( title.diplomatic title.expulsion ) )</text>
+  </query>
+  <query>
+    <number>343</number>
+    <text>#weight( INSERT_BODY #combine( police deaths ) INSERT_BOOST #combine( title.police title.deaths ) )</text>
+  </query>
+  <query>
+    <number>344</number>
+    <text>#weight( INSERT_BODY #combine( abuses e mail ) INSERT_BOOST #combine( title.abuses title.e title.mail ) )</text>
+  </query>
+  <query>
+    <number>345</number>
+    <text>#weight( INSERT_BODY #combine( overseas tobacco sales ) INSERT_BOOST #combine( title.overseas title.tobacco title.sales ) )</text>
+  </query>
+  <query>
+    <number>346</number>
+    <text>#weight( INSERT_BODY #combine( educational standards ) INSERT_BOOST #combine( title.educational title.standards ) )</text>
+  </query>
+  <query>
+    <number>347</number>
+    <text>#weight( INSERT_BODY #combine( wildlife extinction ) INSERT_BOOST #combine( title.wildlife title.extinction ) )</text>
+  </query>
+  <query>
+    <number>348</number>
+    <text>#weight( INSERT_BODY #combine( agoraphobia ) INSERT_BOOST #combine( title.agoraphobia ) )</text>
+  </query>
+  <query>
+    <number>349</number>
+    <text>#weight( INSERT_BODY #combine( metabolism ) INSERT_BOOST #combine( title.metabolism ) )</text>
+  </query>
+  <query>
+    <number>350</number>
+    <text>#weight( INSERT_BODY #combine( health computer terminals ) INSERT_BOOST #combine( title.health title.computer title.terminals ) )</text>
+  </query>
+</parameters>
+
