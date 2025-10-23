@@ -115,11 +115,75 @@ The rarest terms are primarily numeric strings appearing in exactly one document
 
 ---
 
-## Project 2
+## Project 2: Stemming, Stopwords, and Query Analysis
 
-### Status
+### Objectives
 
-Contains project documentation (`project2.pdf`). Implementation details to be added based on project requirements.
+- Evaluate the impact of **stemming** and **stopword removal** on retrieval performance.  
+- Analyze how **term frequency**, **morphological variation**, and **query intent** influence tf-idf rankings.  
+- Compare configurations using **`trec_eval`** metrics (P@5, P@10, MAP).
+
+---
+
+### Implementation
+
+#### Part A — Analytical Experiments
+
+1. **Morphological Variation & Stemming**  
+   Querying *“corporation”* retrieved only **D2**, missing **D3** (*“corporations”*).  
+   With stemming enabled, both terms map to the same root and both documents are retrieved.
+
+2. **Term Frequency Impact**  
+   The token *IBM* appears only in **D2** and **D3**.  
+   Since both share the same idf, the document with higher term frequency (**D2**) scores higher.
+
+3. **Stopword Influence**  
+   A query using *“in”* without stopword removal produced noisy results dominated by high-frequency function words.  
+   Removing stopwords increased retrieval precision.
+
+4. **Query Intent and Relevance**  
+   Document **D4** includes *“Michael Jackson”* but mainly discusses *Lady Gaga*.  
+   The system ranks *Lady Gaga* higher (1.857 > 1.366) because topical context better matches intent.
+
+---
+
+### Part B — Evaluation Results
+
+| Stopword Removal | Stemming | P@5   | P@10  | MAP     |
+|:-----------------|:---------|:-----:|:-----:|:-------:|
+| Yes              | **Yes**  | 0.3919 | 0.3725 | **0.2113** |
+| Yes              | **No**   | 0.3933 | 0.3658 | **0.1860** |
+
+**Findings**  
+- **Stemming** improved MAP (0.186 → 0.211) by merging morphological variants, boosting recall.  
+- Precision at small cutoffs (P@5, P@10) changed minimally, suggesting gains appear in deeper recall.
+
+---
+
+### Insights
+
+- **Stemming** mitigates morphological mismatch, improving recall.  
+- **Stopword removal** filters non-informative terms, improving ranking quality.  
+- **Query interpretation** should capture topical intent beyond literal phrase matches.  
+- **tf-idf weighting** is sensitive to both term frequency and document length, reinforcing the need for normalization.
+
+---
+
+### Tools and Data
+
+- **Model:** tf-idf retrieval  
+- **Evaluation:** `trec_eval` (P@5, P@10, MAP)  
+- **Corpus:** Toy AP-style collection  
+- **Implementation:** Python scripts with preprocessing pipeline
+
+---
+
+### Conclusion
+
+Stemming and stopword removal are essential preprocessing steps in classical Information Retrieval.  
+Empirical results show that stemming enhances Mean Average Precision, while stopword filtering prevents irrelevant matches.  
+These experiments lay the groundwork for the advanced feedback and expansion techniques implemented in **Project 3**.
+
 
 ---
 
